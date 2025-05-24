@@ -1,0 +1,9 @@
+source 'https://cdn.cocoapods.org'
+
+platform :ios, '14.1'
+
+target 'KmpioswheelpickerFramework' do
+  use_frameworks!
+
+  pod 'shared', :path => '../shared'
+end

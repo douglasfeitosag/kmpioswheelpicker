@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C098B94B7B3DACFF8548B811 /* Pods_KmpioswheelpickerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CEAA52ACBBC514DCC28809 /* Pods_KmpioswheelpickerFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5A39D7C2DE2752400B8868D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A39D662DE2752200B8868D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A39D6D2DE2752200B8868D;
+			remoteInfo = KmpioswheelpickerFramework;
+		};
+		A5A39D862DE2752400B8868D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5A39D662DE2752200B8868D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5A39D6D2DE2752200B8868D;
+			remoteInfo = KmpioswheelpickerFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CEAA52ACBBC514DCC28809 /* Pods_KmpioswheelpickerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KmpioswheelpickerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C06F3C72FE1F5A958872EFE /* Pods-KmpioswheelpickerFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KmpioswheelpickerFramework.debug.xcconfig"; path = "Target Support Files/Pods-KmpioswheelpickerFramework/Pods-KmpioswheelpickerFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A39D6E2DE2752200B8868D /* KmpioswheelpickerFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KmpioswheelpickerFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A39D7B2DE2752400B8868D /* KmpioswheelpickerFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmpioswheelpickerFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A39D852DE2752400B8868D /* KmpioswheelpickerFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KmpioswheelpickerFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3763B6E2F5008B2CBBCECD7 /* Pods-KmpioswheelpickerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KmpioswheelpickerFramework.release.xcconfig"; path = "Target Support Files/Pods-KmpioswheelpickerFramework/Pods-KmpioswheelpickerFramework.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A5A39D702DE2752200B8868D /* KmpioswheelpickerFramework */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = KmpioswheelpickerFramework;
+			sourceTree = "<group>";
+		};
+		A5A39D7E2DE2752400B8868D /* KmpioswheelpickerFrameworkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = KmpioswheelpickerFrameworkTests;
+			sourceTree = "<group>";
+		};
+		A5A39D882DE2752400B8868D /* KmpioswheelpickerFrameworkUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = KmpioswheelpickerFrameworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A39D6B2DE2752200B8868D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C098B94B7B3DACFF8548B811 /* Pods_KmpioswheelpickerFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39D782DE2752400B8868D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39D822DE2752400B8868D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15163134BFD6AC1243C03CE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C06F3C72FE1F5A958872EFE /* Pods-KmpioswheelpickerFramework.debug.xcconfig */,
+				C3763B6E2F5008B2CBBCECD7 /* Pods-KmpioswheelpickerFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66C97B5C352B679050CA73EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00CEAA52ACBBC514DCC28809 /* Pods_KmpioswheelpickerFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5A39D652DE2752200B8868D = {
+			isa = PBXGroup;
+			children = (
+				A5A39D702DE2752200B8868D /* KmpioswheelpickerFramework */,
+				A5A39D7E2DE2752400B8868D /* KmpioswheelpickerFrameworkTests */,
+				A5A39D882DE2752400B8868D /* KmpioswheelpickerFrameworkUITests */,
+				A5A39D6F2DE2752200B8868D /* Products */,
+				15163134BFD6AC1243C03CE8 /* Pods */,
+				66C97B5C352B679050CA73EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A39D6F2DE2752200B8868D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A39D6E2DE2752200B8868D /* KmpioswheelpickerFramework.app */,
+				A5A39D7B2DE2752400B8868D /* KmpioswheelpickerFrameworkTests.xctest */,
+				A5A39D852DE2752400B8868D /* KmpioswheelpickerFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5A39DA82DE27B7700B8868D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A5A39D6D2DE2752200B8868D /* KmpioswheelpickerFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A39D8F2DE2752400B8868D /* Build configuration list for PBXNativeTarget "KmpioswheelpickerFramework" */;
+			buildPhases = (
+				F06DF327E6F5769E5670070B /* [CP] Check Pods Manifest.lock */,
+				A5A39DA82DE27B7700B8868D /* Headers */,
+				A5A39D6A2DE2752200B8868D /* Sources */,
+				A5A39D6B2DE2752200B8868D /* Frameworks */,
+				A5A39D6C2DE2752200B8868D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A5A39D702DE2752200B8868D /* KmpioswheelpickerFramework */,
+			);
+			name = KmpioswheelpickerFramework;
+			productName = KmpioswheelpickerFramework;
+			productReference = A5A39D6E2DE2752200B8868D /* KmpioswheelpickerFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5A39D7A2DE2752400B8868D /* KmpioswheelpickerFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A39D922DE2752400B8868D /* Build configuration list for PBXNativeTarget "KmpioswheelpickerFrameworkTests" */;
+			buildPhases = (
+				A5A39D772DE2752400B8868D /* Sources */,
+				A5A39D782DE2752400B8868D /* Frameworks */,
+				A5A39D792DE2752400B8868D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A39D7D2DE2752400B8868D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A5A39D7E2DE2752400B8868D /* KmpioswheelpickerFrameworkTests */,
+			);
+			name = KmpioswheelpickerFrameworkTests;
+			productName = KmpioswheelpickerFrameworkTests;
+			productReference = A5A39D7B2DE2752400B8868D /* KmpioswheelpickerFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5A39D842DE2752400B8868D /* KmpioswheelpickerFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A39D952DE2752400B8868D /* Build configuration list for PBXNativeTarget "KmpioswheelpickerFrameworkUITests" */;
+			buildPhases = (
+				A5A39D812DE2752400B8868D /* Sources */,
+				A5A39D822DE2752400B8868D /* Frameworks */,
+				A5A39D832DE2752400B8868D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5A39D872DE2752400B8868D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A5A39D882DE2752400B8868D /* KmpioswheelpickerFrameworkUITests */,
+			);
+			name = KmpioswheelpickerFrameworkUITests;
+			productName = KmpioswheelpickerFrameworkUITests;
+			productReference = A5A39D852DE2752400B8868D /* KmpioswheelpickerFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A39D662DE2752200B8868D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A5A39D6D2DE2752200B8868D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					A5A39D7A2DE2752400B8868D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A5A39D6D2DE2752200B8868D;
+					};
+					A5A39D842DE2752400B8868D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A5A39D6D2DE2752200B8868D;
+					};
+				};
+			};
+			buildConfigurationList = A5A39D692DE2752200B8868D /* Build configuration list for PBXProject "KmpioswheelpickerFramework" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A39D652DE2752200B8868D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A5A39D6F2DE2752200B8868D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A39D6D2DE2752200B8868D /* KmpioswheelpickerFramework */,
+				A5A39D7A2DE2752400B8868D /* KmpioswheelpickerFrameworkTests */,
+				A5A39D842DE2752400B8868D /* KmpioswheelpickerFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A39D6C2DE2752200B8868D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39D792DE2752400B8868D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39D832DE2752400B8868D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F06DF327E6F5769E5670070B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KmpioswheelpickerFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A39D6A2DE2752200B8868D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39D772DE2752400B8868D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A39D812DE2752400B8868D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5A39D7D2DE2752400B8868D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A39D6D2DE2752200B8868D /* KmpioswheelpickerFramework */;
+			targetProxy = A5A39D7C2DE2752400B8868D /* PBXContainerItemProxy */;
+		};
+		A5A39D872DE2752400B8868D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5A39D6D2DE2752200B8868D /* KmpioswheelpickerFramework */;
+			targetProxy = A5A39D862DE2752400B8868D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A5A39D8D2DE2752400B8868D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3WV9Y68U9G;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5A39D8E2DE2752400B8868D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3WV9Y68U9G;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5A39D902DE2752400B8868D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C06F3C72FE1F5A958872EFE /* Pods-KmpioswheelpickerFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WV9Y68U9G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.douglasfeitosa.KmpioswheelpickerFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5A39D912DE2752400B8868D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3763B6E2F5008B2CBBCECD7 /* Pods-KmpioswheelpickerFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WV9Y68U9G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.douglasfeitosa.KmpioswheelpickerFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5A39D932DE2752400B8868D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WV9Y68U9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.douglasfeitosa.KmpioswheelpickerFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmpioswheelpickerFramework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KmpioswheelpickerFramework";
+			};
+			name = Debug;
+		};
+		A5A39D942DE2752400B8868D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WV9Y68U9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.douglasfeitosa.KmpioswheelpickerFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KmpioswheelpickerFramework.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KmpioswheelpickerFramework";
+			};
+			name = Release;
+		};
+		A5A39D962DE2752400B8868D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WV9Y68U9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.douglasfeitosa.KmpioswheelpickerFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmpioswheelpickerFramework;
+			};
+			name = Debug;
+		};
+		A5A39D972DE2752400B8868D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3WV9Y68U9G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.douglasfeitosa.KmpioswheelpickerFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KmpioswheelpickerFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A39D692DE2752200B8868D /* Build configuration list for PBXProject "KmpioswheelpickerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A39D8D2DE2752400B8868D /* Debug */,
+				A5A39D8E2DE2752400B8868D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A39D8F2DE2752400B8868D /* Build configuration list for PBXNativeTarget "KmpioswheelpickerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A39D902DE2752400B8868D /* Debug */,
+				A5A39D912DE2752400B8868D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A39D922DE2752400B8868D /* Build configuration list for PBXNativeTarget "KmpioswheelpickerFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A39D932DE2752400B8868D /* Debug */,
+				A5A39D942DE2752400B8868D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A39D952DE2752400B8868D /* Build configuration list for PBXNativeTarget "KmpioswheelpickerFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A39D962DE2752400B8868D /* Debug */,
+				A5A39D972DE2752400B8868D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A39D662DE2752200B8868D /* Project object */;
+}
