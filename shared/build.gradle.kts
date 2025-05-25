@@ -2,6 +2,7 @@ import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 
 group = "io.github.douglasfeitosag"
 version = "1.0.0"
+description = "A Kotlin Multiplatform native iOS Picker View"
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
@@ -56,5 +57,7 @@ kotlin {
 }
 
 jreleaser {
+    project.description = "A Kotlin Multiplatform native iOS Picker View"
+    project.copyright = "Copyright (c) 2025 Douglas Feitosa"
     gitRootSearch.set(true)
 }
