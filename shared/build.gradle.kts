@@ -1,5 +1,6 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 
+group = "io.github.douglasfeitosag"
 version = "1.0.0"
 
 plugins {
