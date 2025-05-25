@@ -1,19 +1,25 @@
 project:
   name: kmpioswheelpicker
   version: 1.0.0
-  copyright: "Copyright (c) 2025 Douglas Feitosa"
   description: "A Kotlin Multiplatform native iOS Picker View"
+  copyright: "Copyright (c) 2025 Douglas Feitosa"
   authors:
     - Douglas Feitosa
   license: MIT
   links:
     homepage: "https://github.com/douglasfeitosag/kmpioswheelpicker"
 
+signing:
+  active: ALWAYS
+  armored: true
+
 deploy:
   maven:
     central:
       active: ALWAYS
-      url: https://central.sonatype.com
+      url: https://s01.oss.sonatype.org/service/local/
+      stagingRepository: true
+      sign: true
       username: QRF8TPFK
       password: J80WJ6s3TZvLh+vK5J8i1aSnnMkYNzCGxRNFMEJlrQ8m
 
