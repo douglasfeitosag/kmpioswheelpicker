@@ -15,3 +15,7 @@ deploy:
       url: https://central.sonatype.com
       username: QRF8TPFK
       password: J80WJ6s3TZvLh+vK5J8i1aSnnMkYNzCGxRNFMEJlrQ8m
+
+release:
+  github:
+    active: NEVER

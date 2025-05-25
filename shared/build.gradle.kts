@@ -1,5 +1,7 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 
+version = "1.0.0"
+
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.kotlinCocoapods)
@@ -50,4 +52,8 @@ kotlin {
             implementation(libs.kotlin.test)
         }
     }
+}
+
+jreleaser {
+    gitRootSearch.set(true)
 }
