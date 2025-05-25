@@ -1,0 +1,17 @@
+project:
+  name: kmpioswheelpicker
+  version: 1.0.0
+  description: "A Kotlin Multiplatform native iOS Picker View"
+  authors:
+    - Douglas Feitosa
+  license: MIT
+  links:
+    homepage: "https://github.com/douglasfeitosag/kmpioswheelpicker"
+
+deploy:
+  maven:
+    central:
+      active: ALWAYS
+      url: https://central.sonatype.com
+      username: QRF8TPFK
+      password: J80WJ6s3TZvLh+vK5J8i1aSnnMkYNzCGxRNFMEJlrQ8m

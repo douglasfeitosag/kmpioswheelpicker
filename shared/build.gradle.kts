@@ -3,6 +3,7 @@ import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.kotlinCocoapods)
+    id("org.jreleaser") version "1.8.0"
 }
 
 kotlin {
